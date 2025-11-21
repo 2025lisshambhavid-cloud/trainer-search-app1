@@ -1,3 +1,4 @@
+
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import { Tabs } from 'expo-router';
 
@@ -8,13 +9,14 @@ export default function RootLayout() {
         name="index"
         options={{
           title: 'Home',
-          tabBarIcon: ({ color }) => <FontAwesome size={28} name="hom" color={color} />,
+          tabBarIcon: ({ color }) => <FontAwesome size={28} name="home" color={color} />,
         }}
       />
       <Tabs.Screen
-        name="project"
+        name="trainings"
         options={{
-          title: 'Project',
+          headerShown:false,
+          title: 'Trainings',
           tabBarIcon: ({ color }) => <FontAwesome size={28} name="th-large" color={color} />,
         }}
       />

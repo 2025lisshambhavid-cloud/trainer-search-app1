@@ -1,9 +1,8 @@
 {
   "expo": {
-    "name": "tabview",
-    "slug": "tabview",
-    "version": "1.0.0", 
-    "scheme": "appname",
+    "name": "tsapp2",
+    "slug": "tsapp2",
+    "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -24,11 +23,7 @@
       "edgeToEdgeEnabled": true
     },
     "web": {
-      "favicon": "./assets/favicon.png",
-       "bundler": "metro"
-    },
-    "plugins": [
-      "expo-router"
-    ]
+      "favicon": "./assets/favicon.png"
+    }
   }
 }
